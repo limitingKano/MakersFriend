@@ -9,12 +9,11 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>MakersFriend - Design Profitability Calculator</title>
-        <meta name="description" content="Calculate design profitability and viability before you make it. See break-even price vs. Etsy market data." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🔨</text></svg>" />
-      </Head>
+     <Head>
+  <title>MakersFriend - Craft Calculator for Makers & Etsy Sellers</title>
+  <meta name="description" content="Free profitability calculator for laser cutting, 3D printing & craft makers. Calculate break-even price vs Etsy market data. Validate designs before investing time." />
+  <meta name="keywords" content="craft calculator, profitability calculator, maker calculator, etsy calculator, laser cutting calculator, design profitability" />
+</Head>
       <MakersFriend />
     </>
   );
